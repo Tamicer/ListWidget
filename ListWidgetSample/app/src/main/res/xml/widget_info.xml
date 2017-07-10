@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/my_widget_layout"
+    android:minHeight="120dp"
+    android:minWidth="280dp"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0" >
+    <!--
+        sdk1.5之后updatePeriodMillis已失效，置为0，循环执行自行在代码中实现。
+        至于其他属性可以查一下。在其他随笔中我也给出了
+    -->
+
+</appwidget-provider>
